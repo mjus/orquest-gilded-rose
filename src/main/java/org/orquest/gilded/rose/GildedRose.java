@@ -1,11 +1,13 @@
 package org.orquest.gilded.rose;
 
-class GildedRose {
-    Item[] items;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
-    public GildedRose(Item[] items) {
-        this.items = items;
-    }
+@Getter
+@AllArgsConstructor
+class GildedRose {
+
+    private Item[] items;
 
     public void updateQuality() {
         for (int i = 0; i < items.length; i++) {
@@ -49,7 +51,7 @@ class GildedRose {
                             }
                         }
                     } else {
-                        items[i].quality = items[i].quality - items[i].quality;
+                        items[i].quality = 0;
                     }
                 } else {
                     if (items[i].quality < 50) {

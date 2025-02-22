@@ -1,7 +1,5 @@
 package org.orquest.gilded.rose;
 
-import org.orquest.gilded.rose.Item;
-
 public class TexttestFixture {
     public static void main(String[] args) {
         System.out.println("OMGHAI!");
