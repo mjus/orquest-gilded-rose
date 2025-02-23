@@ -1,8 +1,3 @@
-/**
- * Represents an item in the Gilded Rose system.
- *
- * @author Iuliia Malykh
- */
 package org.orquest.gilded.rose;
 
 import lombok.AllArgsConstructor;
